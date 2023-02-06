@@ -1,0 +1,9 @@
+.grid-item__caption-holder {
+  display: flex;
+  width: 282px;
+  min-height: 79px;
+  margin: 0;
+  justify-content: center;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+}

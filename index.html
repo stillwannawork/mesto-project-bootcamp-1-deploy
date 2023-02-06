@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Место</title>
+  <link rel="stylesheet" href="./pages/index.css"/>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="header__logo"></div>
+    </header>
+    <main class="content">
+      <section class="profile">
+        <div class="profile__avatar-info-container">
+          <img src="./images/profile-image.svg" alt="Изображение профиля" class="profile__avatar">
+          <div class="profile__info">
+            <div class="profile__title-edit-container">
+              <h1 class="profile__title">Жак-Ив Кусто</h1>
+              <button type="button" aria-label="Изменить профиль" class="profile__edit-button"></button>
+            </div>
+            <p class="profile__subtitle">Исследователь океана</p>
+          </div>
+        </div>
+        <button type="button" aria-label="Добваить изображение" class="profile__add-button"></и>
+      </section>
+      <section class="photo-grid">
+        <div class="grid-item">
+          <img src="./images/karachaevsk.jpg" alt="Фотография в карточке" class="grid-item__image">
+          <div class="grid-item__caption-holder">
+            <div class="grid-item__caption">
+              <h2 class="grid-item__text">К</h2>
+              <button type="button" aria-label="Понравилось" class="grid-item__icon"></button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./images/elbrus.png" alt="Фотография в карточке" class="grid-item__image">
+          <div class="grid-item__caption-holder">
+            <div class="grid-item__caption">
+              <h2 class="grid-item__text">Карачаевскasdasdasdasdasd</h2>
+              <button type="button" aria-label="Понравилось" class="grid-item__icon"></button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./images/dombai.png" alt="Фотография в карточке" class="grid-item__image">
+          <div class="grid-item__caption-holder">
+            <div class="grid-item__caption">
+              <h2 class="grid-item__text">Карачаевск</h2>
+              <button type="button" aria-label="Понравилось" class="grid-item__icon"></button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./images/elbrus.png" alt="Фотография в карточке" class="grid-item__image">
+          <div class="grid-item__caption-holder">
+            <div class="grid-item__caption">
+              <h2 class="grid-item__text">Карачаевск</h2>
+              <button type="button" aria-label="Понравилось" class="grid-item__icon"></button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./images/dombai.png" alt="Фотография в карточке" class="grid-item__image">
+          <div class="grid-item__caption-holder">
+            <div class="grid-item__caption">
+              <h2 class="grid-item__text">Карачаевск</h2>
+              <button type="button" aria-label="Понравилось" class="grid-item__icon"></button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./images/karachaevsk.jpg" alt="Фотография в карточке" class="grid-item__image">
+          <div class="grid-item__caption-holder">
+            <div class="grid-item__caption">
+              <h2 class="grid-item__text">Карачаевск</h2>
+              <button type="button" aria-label="Понравилось" class="grid-item__icon"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">© 2020 Mesto Russia</p>
+    </footer>
+    <div class="popup">
+      <div class="popup__container">
+        <button type="button" aria-label="Закрыть" class="popup__close-button"></button>
+        <h3 class="popup__header">Редактировать профиль</h3>
+        <form method="get" name="edit-profile" class="popup__form">
+          <div class="popup__input-container">
+            <input type="text" name="title" id="title" class="popup__title">
+            <input type="text" name="subtitle" id="subtitle" class="popup__title">
+          </div>
+          <button type="submi" aria-labelledby="Сохранить" class="popup__save-button">Сохранить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
